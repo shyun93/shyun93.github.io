@@ -6,22 +6,18 @@
 }
 
 .header {
-	width: 800px;
+	width: 100%;
 	margin: 0 auto;
 	background-color: white;
 }
 
-div.logo{
-	text-align: center;
-}
-
 .logo-img{
-	height: 200px;
-	width: 200px;
+	height: 25%;
+	width: 25%;
 }
 
 .center { 
-	width: 800px;
+	width: 100%;
 	display: inline-block;
 	vertical-align: top;
 	text-align: center;
@@ -32,14 +28,14 @@ div.logo{
 	font-family: Amatic SC;
 	font-weight: bolder;
 	font-size: 175%;
+	margin-bottom: -2%;	
 }
 
 
 .div-border {
-	margin-top: 35px;
-	border: 1px solid black;
 	padding: 3px;
 	text-align: center;
+	margin-top: -3%;
 }
 
 .anchor {
@@ -60,14 +56,57 @@ div.logo{
 	color: gray;
 }
 
+ul { 
+	padding: 0;
+	list-style: none;
+	background: white;
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+    line-height: 21px;
+    text-align: left;
+}
+
+
+li a:hover {
+	color: gray;
+	background-color: white;
+}
+
+ul li a{
+    display: block;
+    padding: 8px 25px;
+    color: black;
+    text-decoration: none;
+}
+
+
+.dropdown{
+	min-width: 100%;
+    background: white;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+}
+
+ul li:hover ul.dropdown{
+    display: block; 
+}
+
+.dropdown li{
+    display: block;
+}
+
 .main { 
-	width: 800px;
-	margin-top: 20px;
+	width: 100%;
 	display: inline-block;
 }
 
 .main-img{
-	width: 800px;
+	width: 85%;
 	display: inline-block;
 	text-align: center;
 }
@@ -78,8 +117,8 @@ div.logo{
 }
 
 .footer-product {
-	width: 105px;
-	height: 105px;
+	width: 100%;
+	height: 100%;
 	margin: 3px 2px 3px 2px;
 	text-align: center;
 }
@@ -96,3 +135,41 @@ div.logo{
 .footer button:hover {
     background-color: black;
     color: white;
+   }
+
+h1 {
+	font-weight: bolder;
+	font-size: 300%;
+	margin-top: -2%;
+}
+
+h2 {
+	font-size: 200%;
+}
+
+.body {
+	width: 100%;
+	text-indent: 2%;
+	text-align: left;
+	font-size: 160%;
+}
+
+.ps {
+	margin-top: 40px;	
+	text-align: left;
+	font-size: 150%;
+}
+
+
+.aboutme-img {
+	margin: 0 auto;
+	display: inline-block;
+	text-align: center;
+}
+
+.ollie {
+	margin-top: 20px;	
+	width: 40%;
+	border: 1px solid black;
+	padding: 5px;
+}
