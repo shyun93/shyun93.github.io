@@ -100,7 +100,6 @@ ul li:hover ul.dropdown{
     display: block;
 }
 
-
 .main { 
 	width: 100%;
 	display: inline-block;
@@ -109,7 +108,6 @@ ul li:hover ul.dropdown{
 
 .main-img {
 	width: 70%;
-	display: inline-block;
 	text-align: center;
 }
 
@@ -172,7 +170,7 @@ h2 {
 
 .ollie {
 	margin-top: 20px;	
-	width: 40%;
+	width: 30%;
 	border: 1px solid black;
 	padding: 5px;
 }
