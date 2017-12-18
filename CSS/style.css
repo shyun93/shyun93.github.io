@@ -1,3 +1,6 @@
+button {
+	font-family: Amatic SC;	
+}
 .container {
 	background-color: white;
 	padding: 20px;
@@ -215,4 +218,75 @@ h2 {
 .image-wrapper:hover .text {
 	opacity: 1;
 	display: inline-block;
+}
+
+.living {
+	text-align: left;
+	margin-left: 5%;
+}
+
+.fashion {
+	text-align: left;
+	margin-left: 5%;	
+}
+
+.sorry {
+	font-size: 150%;
+}
+
+.feedback {
+	font-family: Amatic SC;
+	text-align: center;
+	font-size: 150%;
+}
+
+#button {
+	font-family: Amatic SC;	
+}
+
+.amigurumi {
+	text-align: left;
+	margin-left: 5%;
+}
+
+.price {
+	font-weight: bold;
+	font-size: 120%;
+}
+
+.img-price {	
+	width: 100%;
+	display: inline-block;
+	margin: 1%;
+	position: relative;
+}
+
+.image-wrapper-product {
+	margin: 1%;
+	width: 25%;
+	display: inline-block;
+	position: relative;
+}
+
+.macrame {
+	text-align: left;
+	margin-left: 5%;	
+}
+
+.back {
+	text-decoration: none;
+	padding: 5px;
+}
+
+.back:visited {
+	color: black;
+}
+
+.back:link {
+	color: black;
+	text-decoration: none;
+}
+
+.back:hover {
+	color: gray;
 }
