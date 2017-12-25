@@ -25,4 +25,4 @@ setInterval(function() {
    .fadeIn(1000)
    .end()
    .appendTo('#slideshow');
-}, 1750);
+}, 2000);
