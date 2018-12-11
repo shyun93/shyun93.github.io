@@ -290,3 +290,25 @@ h2 {
 .back:hover {
 	color: gray;
 }
+
+@media only screen and (max-width: 420px) {
+	.image-wrapper {
+		display: block;
+		width: 100%;
+	}
+
+	.image-wrapper-product {
+		margin: 1%;
+		width: 100%;
+		display: block;
+	}
+	.img-price {	
+		width: 100%;
+		display: block;
+		margin: 1%;
+	}
+	.image-wrapper:hover .text {
+		opacity: 1;
+		display: block;
+	}
+}
