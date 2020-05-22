@@ -1,11 +1,18 @@
 button {
-	font-family: Amatic SC;	
+	font-family: 'Ubuntu', sans-serif;	
+}
+
+h1 {
+	color: black;
+}
+a {
+	text-decoration: none !important;
 }
 .container {
 	background-color: white;
 	padding: 20px;
 	text-align: center;
-	font-family: Amatic SC;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 .header {
@@ -14,9 +21,10 @@ button {
 	background-color: white;
 }
 
-.logo-img{
-	height: 25%;
-	width: 25%;
+.logo{
+	text-align: center;
+	font-size: 175%;
+	letter-spacing: 10px;
 }
 
 .center { 
@@ -24,13 +32,14 @@ button {
 	display: inline-block;
 	vertical-align: top;
 	text-align: center;
-	font-family: Amatic SC;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 .name {
-	font-family: Amatic SC;
-	font-weight: bolder;
-	font-size: 175%;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: normal !important;
+	font-size: 100%;
+	letter-spacing: 5px;
 	margin-bottom: -2%;	
 }
 
@@ -44,20 +53,24 @@ button {
 .anchor {
 	margin: 6px 4px;
 	padding: 20px;
+	color: gray;
 }
 
-.anchor:visited {
+
+.anchor:active {
 	color: black;
 }
+
 
 .anchor:link {
-	color: black;
+	color: gray;
 	text-decoration: none;
 }
 
 .anchor:hover {
-	color: gray;
+	color: black;
 }
+
 
 ul { 
 	padding: 0;
@@ -104,7 +117,7 @@ ul li:hover ul.dropdown{
 }
 
 .main-img {
-	width: 50%;
+	width: 40%;
 	text-align: center;
 } 
 
@@ -210,7 +223,7 @@ h2 {
 
 .image-wrapper {
 	margin: 1%;
-	width: 40%;
+	width: 20%;
 	display: inline-block;
 	position: relative;
 }
